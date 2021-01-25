@@ -2,29 +2,19 @@
 
 
 
-# How to this
+# 
 
-👇install
 ```bash
-yarn add sass
+yarn add -D jest-css-modules
+
+yarn test
 ```
-
-👇 using 
-
-```scss
-# index.module.scss
-
-.scss_test {
-  font-size: 3em;
-}
-
 ```
+> blitz-2021-01-25@1.0.0 test /Users/user2/blitz-2021-01-25
+> jest
 
-```diff
-import styles from "./index.module.scss"
-
-...
-<p className={styles.scss_test}>Scss Test</p>
-...
-
+Test Suites: 1 skipped, 0 of 1 total
+Tests:       1 skipped, 1 total
+Snapshots:   0 total
+Time:        2.661 s
 ```
