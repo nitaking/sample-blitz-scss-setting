@@ -4,6 +4,7 @@ import logout from "app/auth/mutations/logout"
 import { useCurrentUser } from "app/hooks/useCurrentUser"
 import { Suspense } from "react"
 
+import styles from "./index.module.scss"
 /*
  * This file is just for a pleasant getting started page for your new app.
  * You can delete everything in here and start from scratch if you like.
@@ -58,6 +59,7 @@ const Home: BlitzPage = () => {
         </div>
         <p>
           <strong>Congrats!</strong> Your app is ready, including user sign-up and log-in.
+          <p className={styles.scss_test}>Scss Test</p>
         </p>
         <div className="buttons" style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Suspense fallback="Loading...">
